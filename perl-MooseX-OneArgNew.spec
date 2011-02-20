@@ -14,7 +14,7 @@ Source0:    http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upst
 BuildRequires: perl(Moose)
 BuildRequires: perl(Moose::Util::TypeConstraints)
 BuildRequires: perl(MooseX::Role::Parameterized)
-BuildRequires: perl(Test::More)
+BuildRequires: perl(Test::More) >= 0.960
 BuildRequires: perl(namespace::autoclean)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
