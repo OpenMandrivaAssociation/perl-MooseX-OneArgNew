@@ -1,9 +1,9 @@
 %define upstream_name    MooseX-OneArgNew
-%define upstream_version 0.001
+%define upstream_version 0.002
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Teach ->new to accept single, non-hashref arguments
 License:    GPL+ or Artistic
