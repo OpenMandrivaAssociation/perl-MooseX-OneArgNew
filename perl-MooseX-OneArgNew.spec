@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-OneArgNew
-%define upstream_version 0.002
+%define upstream_version 0.004
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Teach ->new to accept single, non-hashref arguments
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-OneArgNew-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Moose)
@@ -60,4 +60,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sun Feb 20 2011 Guillaume Rousse <guillomovitch@mandriva.org> 0.1.0-1
 + Revision: 639070
 - import perl-MooseX-OneArgNew
+
 

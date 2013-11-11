@@ -1,2 +1,4 @@
+removed_sources:
+  MooseX-OneArgNew-0.002.tar.gz: 4d10b4396ccc79f07a0713df69f11904b3c37439
 sources:
-  "MooseX-OneArgNew-0.002.tar.gz": 4d10b4396ccc79f07a0713df69f11904b3c37439
+  MooseX-OneArgNew-0.004.tar.gz: 0a43d7314c78db60fa8b6046fdf10f8d32051e7c
