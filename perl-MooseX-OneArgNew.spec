@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-OneArgNew
-%define upstream_version 0.004
+%define upstream_version 0.007
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Teach ->new to accept single, non-hashref arguments
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-OneArgNew-%{upstream_version}.tar.gz
+Url:		https://github.com/rjbs/MooseX-OneArgNew
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/MooseX-OneArgNew-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
