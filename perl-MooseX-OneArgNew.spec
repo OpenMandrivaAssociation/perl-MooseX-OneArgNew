@@ -1,15 +1,13 @@
 %define upstream_name    MooseX-OneArgNew
-%define upstream_version 0.007
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.007
+Release:	2
 
 Summary:	Teach ->new to accept single, non-hashref arguments
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/rjbs/MooseX-OneArgNew
-Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/MooseX-OneArgNew-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/R/RJ/RJBS/MooseX-OneArgNew-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -32,7 +30,7 @@ parameterized role|MooseX::Role::Parameterized manpage with two parameters:
   a MooseX::Type.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
